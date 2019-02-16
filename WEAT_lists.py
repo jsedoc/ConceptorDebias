@@ -59,7 +59,7 @@ class WEATLists(object):
     WEFAT_1_Female_attributes = ['female', 'woman', 'girl', 'sister', 'she', 'her', 'hers', 'daughter']
     WEFAT_1_Male_attributes = ['male', 'man', 'boy', 'brother', 'he', 'him', 'his', 'son']
 
-    WEFAT_2_Names = ['Kelly', 'Tracy', 'Jamie', 'Jackie', 'Jesse', 'Courtney', 'Lynn', 'Taylor', 'Leslie', 'Shannon', 'Stacey', 'Jessie', 'Shawn', 'Stacy', 'Casey', 'Bobby', 'Terry', 'Lee', 'Ashley', 'Eddie', 'Chris', 'Jody', 'Pat', 'Carey', 'Willie', 'Morgan', 'Robbie', 'Joan', 'Alexis', 'Kris', 'Frankie', 'Bobbie', 'Dale', 'Robin', 'Billie', 'Adrian', 'Kim', 'Jaime', 'Jean', 'Francis', 'Marion', 'Dana', 'Rene', 'Johnnie', 'Jordan', 'Carmen', 'Ollie', 'Dominique', 'Jimmie', 'Shelby']
+    WEFAT_2_Androgynous_Names = ['Kelly', 'Tracy', 'Jamie', 'Jackie', 'Jesse', 'Courtney', 'Lynn', 'Taylor', 'Leslie', 'Shannon', 'Stacey', 'Jessie', 'Shawn', 'Stacy', 'Casey', 'Bobby', 'Terry', 'Lee', 'Ashley', 'Eddie', 'Chris', 'Jody', 'Pat', 'Carey', 'Willie', 'Morgan', 'Robbie', 'Joan', 'Alexis', 'Kris', 'Frankie', 'Bobbie', 'Dale', 'Robin', 'Billie', 'Adrian', 'Kim', 'Jaime', 'Jean', 'Francis', 'Marion', 'Dana', 'Rene', 'Johnnie', 'Jordan', 'Carmen', 'Ollie', 'Dominique', 'Jimmie', 'Shelby']
     WEFAT_2_Female_attributes = WEFAT_1_Female_attributes
     WEFAT_2_Male_attributes = WEFAT_1_Male_attributes
     
