@@ -6,6 +6,8 @@ This is code to calculate the conceptor, as well as boolean operators
 """
 """## Conceptor code"""
 
+import numpy as np
+
 def train_Conceptor(x, alpha = 1):
   print("starting...")
   #x = orig_embd.vectors
