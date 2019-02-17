@@ -1,7 +1,15 @@
 # -*- coding: utf-8 -*-
 """
 Plotting function to plot eigenvalues and explained variance.
+# from https://plot.ly/ipython-notebooks/principal-component-analysis/
+
 """
+
+import numpy as np
+import plotly.plotly as py
+from plotly.offline import init_notebook_mode, iplot
+from plotly.graph_objs import Contours, Histogram2dContour, Marker, Scatter
+
 
 def configure_plotly_browser_state():
   import IPython
@@ -17,16 +25,11 @@ def configure_plotly_browser_state():
         </script>
         '''))
 
-import plotly.plotly as py
-from plotly.offline import init_notebook_mode, iplot
-from plotly.graph_objs import Contours, Histogram2dContour, Marker, Scatter
-
 configure_plotly_browser_state()
 
 init_notebook_mode(connected=False)
 
 def plot_pc_variance(R):
-    # from https://plot.ly/ipython-notebooks/principal-component-analysis/
     eig_vals, eig_vecs = np.linalg.eig(R)
 
 
