@@ -3,7 +3,7 @@
 This is code to load all of the word lists for our paper.
 """
 
-if not 'sys_lists' in _:
+if not 'sys_lists' in dir():
     sys_lists = dir()
 sys_lists += 'sys_lists'
 
