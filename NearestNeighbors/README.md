@@ -7,3 +7,5 @@ Original code and data can be found on: https://github.com/tolga-b/debiaswe.
 
 2. Debiasing results using conceptor negation. Conceptor is found by using gender specific words.
 
+Results includes direct bias(gender direction) results and indirect bias(non-gender direction but showing gender bias) results.
+
