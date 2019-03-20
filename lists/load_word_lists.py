@@ -20,8 +20,8 @@ with open(wikiWordsPath, "r+") as f_in:
     for line in f_in:
         wikiWords.append(line.split(' ')[0])
 
-from ConceptorDebias.Greenwald_1998_Perez_2010_lists import *
-from ConceptorDebias.WEAT_lists import *
+from ConceptorDebias.lists.Greenwald_1998_Perez_2010_lists import *
+from ConceptorDebias.lists.WEAT_lists import *
 
 winoWordsPath = './' + 'corefBias/WinoBias/wino/extra_gendered_words.txt'
 male_vino_extra = []
