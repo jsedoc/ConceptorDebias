@@ -1,4 +1,4 @@
-EEC results with WORD2VEC, GLOVE, FASTTEXT, ELMO, and BERT embeddings \
+EEC results with WORD2VEC, GLOVE, FASTTEXT, ELMO, and BERT embeddings 
 
 According    to    Kiritchenko    and    Mohammad(2018b),   the   Equity   Evaluation   Corpus(EEC) consists  of  8640  English  sentences  which  are carefully   generated   to   obtain   biases   towards certain  genders  and  races. EEC  is  developed using  eleven  sentence  templates,  each  of  which involves at least one race- or gender-related word, and most templates also have emotional words to express  emotion  and  sentiment.   EEC  is  used  to measure gender and racial biases on sentiments in our experiments.
 
