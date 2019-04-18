@@ -5,7 +5,7 @@ git clone https://github.com/jsedoc/ConceptorDebias
 cd ConceptorDebias; git checkout ACL-cleanup
 
 # General word list
-wget https://raw.githubusercontent.com/IlyaSemenov/wikipedia-word-frequency/master/results/enwiki-20150602-words-frequency.txt
+wget https://raw.githubusercontent.com/IlyaSemenov/wikipedia-word-frequency/master/results/enwiki-20190320-words-frequency.txt
 git clone https://github.com/PrincetonML/SIF
     
 # Gender word lists
