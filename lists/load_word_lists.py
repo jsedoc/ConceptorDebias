@@ -7,7 +7,7 @@ if not 'sys_lists' in dir():
     sys_lists = dir()
 sys_lists += 'sys_lists'
 
-wikiWordsPath = './' + 'enwiki-20150602-words-frequency.txt'
+wikiWordsPath = './' + 'enwiki-20190320-words-frequency.txt'
 wikiWords = []
 with open(wikiWordsPath, "r+") as f_in:
     for line in f_in:
